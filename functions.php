@@ -12,22 +12,7 @@ function theme_enqueue_styles() {
  * @return string Google fonts URL for the theme.
  */
 function twentysixteen_fonts_url() {
-	$fonts_url = '';
-	$fonts     = array();
-	$subsets   = 'latin,latin-ext,cyrillic';
-
-	// Fira Sans for headers, body, etc.
-	$fonts[] = 'Fira+Sans:400,400italic,700,700italic';
-
-	// Fira Mono for monospace text.
-	$fonts[] = 'Fira+Mono';
-
-	if ( $fonts ) {
-		$fonts_url = add_query_arg( array(
-			'family' => urlencode( implode( '|', $fonts ) ),
-			'subset' => urlencode( $subsets ),
-		), 'https://fonts.googleapis.com/css' );
-	}
+	$fonts_url = 'https://fonts.googleapis.com/css?family=Fira+Mono|Fira+Sans:400,400italic,700,700italic&subset=latin,latin-ext,cyrillic';
 
 	return $fonts_url;
 }
