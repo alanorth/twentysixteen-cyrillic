@@ -3,7 +3,7 @@ A child theme of [Twenty Sixteen](https://wordpress.org/themes/twentysixteen/) t
 
 ![Screenshot](/screenshot.png?raw=true "Screenshot")
 
-The default fonts used in Twenty Sixteen are Merriweather, Montserrat, and Inconsolata, none of which have support for Cyrillic. I've replaced these with Fira Sans and Fira Mono, two modern, open-source fonts with great Cyrillc coverage.
+The default fonts used in Twenty Sixteen are Merriweather, Montserrat, and Inconsolata, none of which have support for Cyrillic. I've replaced these with Fira Sans and Fira Mono, two modern, open-source fonts with great Cyrillic coverage.
 
 # License
 Copyright (C) 2016 Alan Orth
