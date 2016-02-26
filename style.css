@@ -15,26 +15,201 @@ This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
 
-@import  "https://fonts.googleapis.com/css?family=Fira+Sans:400,400italic,700,700italic&subset=latin,cyrillic";
-
-body, button, input, input[type="submit"], select, textarea {
-	font-family: 'Fira Sans', sans-serif;
+body,
+button,
+input,
+select,
+textarea {
+	font-family: 'Fira Sans', Georgia, serif;
 }
 
-.site-title, .entry-title, .entry-footer, .post-navigation .post-title {
-	font-family: 'Fira Sans', sans-serif;
+code,
+kbd,
+tt,
+var,
+samp,
+pre {
+	font-family: 'Fira Mono', monospace;
 }
 
-.main-navigation, .post-navigation {
-	font-family: 'Fira Sans', sans-serif;
+/* Placeholder text color -- selectors need to be separate to work. */
+::-webkit-input-placeholder {
+	font-family: 'Fira Sans', "Helvetica Neue", sans-serif;
 }
 
-.widget .widget-title, .tagcloud a, .required {
-	font-family: 'Fira Sans', sans-serif;
+:-moz-placeholder {
+	font-family: 'Fira Sans', "Helvetica Neue", sans-serif;
 }
 
-.comments-title, .comment-form label, .no-comments {
-	font-family: 'Fira Sans', sans-serif;
+::-moz-placeholder {
+	font-family: 'Fira Sans', "Helvetica Neue", sans-serif;
+}
+
+:-ms-input-placeholder {
+	font-family: 'Fira Sans', "Helvetica Neue", sans-serif;
+}
+
+button,
+button[disabled]:hover,
+button[disabled]:focus,
+input[type="button"],
+input[type="button"][disabled]:hover,
+input[type="button"][disabled]:focus,
+input[type="reset"],
+input[type="reset"][disabled]:hover,
+input[type="reset"][disabled]:focus,
+input[type="submit"],
+input[type="submit"][disabled]:hover,
+input[type="submit"][disabled]:focus {
+	font-family: 'Fira Sans', "Helvetica Neue", sans-serif;
+}
+
+.post-password-form label {
+	font-family: 'Fira Sans', "Helvetica Neue", sans-serif;
+}
+
+.main-navigation {
+	font-family: 'Fira Sans', "Helvetica Neue", sans-serif;
+}
+
+.post-navigation {
+	font-family: 'Fira Sans', "Helvetica Neue", sans-serif;
+}
+
+.post-navigation .post-title {
+	font-family: 'Fira Sans', "Helvetica Neue", sans-serif;
+}
+
+.pagination {
+	font-family: 'Fira Sans', "Helvetica Neue", sans-serif;
+}
+
+.image-navigation,
+.comment-navigation {
+	font-family: 'Fira Sans', "Helvetica Neue", sans-serif;
+}
+
+.site .skip-link {
+	font-family: 'Fira Sans', "Helvetica Neue", sans-serif;
+}
+
+.widget .widget-title {
+	font-family: 'Fira Sans', "Helvetica Neue", sans-serif;
+}
+
+.widget_calendar caption {
+  font-weight: 700;
+}
+
+.widget_recent_entries .post-date {
+	font-family: 'Fira Sans', "Helvetica Neue", sans-serif;
+}
+
+.widget_rss .rss-date,
+.widget_rss cite {
+	font-family: 'Fira Sans', "Helvetica Neue", sans-serif;
+}
+
+.tagcloud a {
+	font-family: 'Fira Sans', "Helvetica Neue", sans-serif;
+}
+
+.site-title {
+	font-family: 'Fira Sans', "Helvetica Neue", sans-serif;
+}
+
+.entry-title {
+	font-family: 'Fira Sans', "Helvetica Neue", sans-serif;
+}
+
+.entry-content h1,
+.entry-content h2,
+.entry-content h3,
+.entry-content h4,
+.entry-content h5,
+.entry-content h6,
+.entry-summary h1,
+.entry-summary h2,
+.entry-summary h3,
+.entry-summary h4,
+.entry-summary h5,
+.entry-summary h6,
+.comment-content h1,
+.comment-content h2,
+.comment-content h3,
+.comment-content h4,
+.comment-content h5,
+.comment-content h6,
+.textwidget h1,
+.textwidget h2,
+.textwidget h3,
+.textwidget h4,
+.textwidget h5,
+.textwidget h6 {
+	font-weight: 700;
+}
+
+.entry-content .author-title {
+	font-weight: 700;
+}
+
+.entry-footer {
+	font-family: 'Fira Sans', "Helvetica Neue", sans-serif;
+}
+
+.sticky-post {
+	font-family: 'Fira Sans', "Helvetica Neue", sans-serif;
+}
+
+.page-title {
+	font-family: 'Fira Sans', "Helvetica Neue", sans-serif;
+}
+
+.page-links {
+	font-family: 'Fira Sans', "Helvetica Neue", sans-serif;
+}
+
+.comments-title,
+.comment-reply-title {
+	font-family: 'Fira Sans', "Helvetica Neue", sans-serif;
+}
+
+.comment-metadata,
+.pingback .edit-link {
+	font-family: 'Fira Sans', "Helvetica Neue", sans-serif;
+}
+
+.comment-reply-link {
+	font-family: 'Fira Sans', "Helvetica Neue", sans-serif;
+}
+
+.comment-form label {
+	font-family: 'Fira Sans', "Helvetica Neue", sans-serif;
+}
+
+.no-comments {
+	font-family: 'Fira Sans', "Helvetica Neue", sans-serif;
+}
+
+.form-allowed-tags code {
+	font-family: 'Fira Mono', monospace;
+}
+
+.required {
+	font-family: 'Fira Sans', "Helvetica Neue", sans-serif;
+}
+
+.site-footer .site-title:after {
+	font-family: 'Fira Sans', "Helvetica Neue", sans-serif;
+}
+
+.widecolumn h2 {
+	font-weight: 700;
+}
+
+.widecolumn label,
+.widecolumn .mu_register label {
+	font-family: 'Fira Sans', "Helvetica Neue", sans-serif;
 }
 
 /* vim: set ts=2 sw=2 tw=2 : */
