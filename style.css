@@ -1,0 +1,40 @@
+/*
+Theme Name: Twenty Sixteen Cyrillic
+Theme URI: https://wordpress.org/themes/twentysixteen/
+Author: Alan Orth
+Author URI: https://englishbulgaria.net
+Description: A Twenty Sixteen child theme with better support for Cyrillic script.
+Version: 0.9
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, blue, gray, red, white, yellow, dark, light, one-column, two-columns, right-sidebar, fixed-layout, responsive-layout, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, flexible-header, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready, cyrillic
+Text Domain: twentysixteen
+Template: twentysixteen
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+@import  "https://fonts.googleapis.com/css?family=Fira+Sans:400,400italic,700,700italic&subset=latin,cyrillic";
+
+body, button, input, input[type="submit"], select, textarea {
+	font-family: 'Fira Sans', sans-serif;
+}
+
+.site-title, .entry-title, .entry-footer, .post-navigation .post-title {
+	font-family: 'Fira Sans', sans-serif;
+}
+
+.main-navigation, .post-navigation {
+	font-family: 'Fira Sans', sans-serif;
+}
+
+.widget .widget-title, .tagcloud a, .required {
+	font-family: 'Fira Sans', sans-serif;
+}
+
+.comments-title, .comment-form label, .no-comments {
+	font-family: 'Fira Sans', sans-serif;
+}
+
+/* vim: set ts=2 sw=2 tw=2 : */
