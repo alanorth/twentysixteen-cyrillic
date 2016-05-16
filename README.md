@@ -1,6 +1,8 @@
 # Twenty Sixteen Cyrillic
 A child theme of [Twenty Sixteen](https://wordpress.org/themes/twentysixteen/) that is exactly the same in every way, but utilizes different fonts to have better coverage for Cyrillic script.
 
+*Update:* As of early 2016 a version of Merriweather that support Cyrillic characters is now available on Google fonts, and therefore used by WordPress' Twenty Sixteen theme. You can use that one without offending [Saints Cyril and Methodius](https://en.wikipedia.org/wiki/Saints_Cyril_and_Methodius) too much.
+
 ![Screenshot](/screenshot.png?raw=true "Screenshot")
 
 The default fonts used in Twenty Sixteen (Merriweather, Montserrat, and Inconsolata) have no Cyrillic support, which causes the web browser to use a system font for those characters and creates an inconsistent visual experience (see [#30](https://github.com/WordPress/twentysixteen/issues/30)). Instead, I use Mozilla's [Fira Sans](http://www.carrois.com/fira-4-1/) and Fira Mono typefaces—they are modern, open source, and have much better Cyrillic coverage.
